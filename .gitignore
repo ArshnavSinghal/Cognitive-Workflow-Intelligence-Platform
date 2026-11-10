@@ -19,7 +19,7 @@ env/
 .venv/
 
 # ML model files (generated artefacts, not source)
-backend/app/ml/action_model.joblib
+# action_model.joblib is committed — it's needed for /recommendation to work on a fresh clone
 backend/app/ml/real_action_model.joblib
 
 # Node / frontend

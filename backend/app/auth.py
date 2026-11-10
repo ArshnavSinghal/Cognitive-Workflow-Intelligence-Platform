@@ -1,9 +1,10 @@
+import os
 from passlib.context import CryptContext
 from jose import jwt, JWTError
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-SECRET_KEY = "cwip-secret-key-change-later"
+SECRET_KEY = os.getenv("SECRET_KEY", "cwip-secret-key-change-later")
 ALGORITHM = "HS256"
 
 
