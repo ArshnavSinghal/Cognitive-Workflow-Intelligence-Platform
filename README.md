@@ -153,11 +153,14 @@ Protected routes expect an `Authorization: Bearer <token>` header obtained from 
 
 ## Screenshots
 
-Add images to `documentation/screenshots/` and link them here.
+### Dashboard
+![Dashboard](documentation/screenshots/dashboard.png)
 
-| Dashboard | Recommendations | Skill graph |
-|---|---|---|
-| coming soon | coming soon | coming soon |
+### Recommendations
+![Recommendations](documentation/screenshots/recommendations.png)
+
+### Learning Progress
+![Learning Progress](documentation/screenshots/learning-progress.png)
 
 ---
 
