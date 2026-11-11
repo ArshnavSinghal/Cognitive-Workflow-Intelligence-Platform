@@ -41,5 +41,13 @@ Thumbs.db
 *.sqlite
 *.db
 
+# Local working directories — never commit
+backups/
+scratch/
+
+# Database dumps
+*.sql
+*.dump
+
 # Logs
 *.log

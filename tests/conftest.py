@@ -1,7 +1,11 @@
+import os
 import pytest
 from starlette.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
+# Must be set before backend imports so auth.py finds a SECRET_KEY.
+os.environ.setdefault("SECRET_KEY", "test-only-secret-key-not-for-production")
 
 from backend.app.main import app, get_db, get_current_user
 from backend.app.database import Base
