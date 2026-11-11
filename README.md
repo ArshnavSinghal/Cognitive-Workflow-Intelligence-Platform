@@ -170,6 +170,3 @@ See [FUTURE_ROADMAP.md](FUTURE_ROADMAP.md). Highlights: training on real learner
 
 ---
 
-## License
-
-Add a LICENSE file (MIT is a common choice).
